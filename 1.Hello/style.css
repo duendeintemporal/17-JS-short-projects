@@ -1,0 +1,19 @@
+.hello-button{
+    background-color: teal;
+    color: whitesmoke;
+    padding: .5rem 1rem;
+    border: 0;
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.big-title{
+    padding: 5rem;
+    font-size: 4rem;
+    /* font-weight: bold; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hello{
+    font-weight: bold;
+    font-size: 3.7rem;
+    color:red;
+}

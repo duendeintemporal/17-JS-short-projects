@@ -1,0 +1,52 @@
+:root{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-image: url(timer-bg.jpg);
+    background-size: cover;
+    margin: 4px;
+}
+
+.timer-wrapper{
+    display: flex;
+    margin: 4rem;
+    gap: 4rem;
+    background-color: rgba(12, 12, 12, 0.2);
+    padding: 1.6rem;
+    border-radius: 1.5rem;
+}
+
+.input-timer-wrapper{
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+}
+
+.output-timer-wrapper{
+
+}
+
+.timer-input{
+    width: 8rem;
+    height: 1rem;
+}
+
+.timer-span{
+
+}
+
+.timer-button{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    font-weight: 700;
+}
+
+.timer-button:hover{
+    background-color: rgba(120,120,120,0.4);
+    color: gold;
+}

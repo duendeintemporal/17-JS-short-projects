@@ -1,0 +1,29 @@
+body {
+    transition: background-color 0.5s;
+}
+
+.bg-change{
+    width: 40%;
+    background-color: rgba(0, 0, 150, 0.2);
+    margin: 100px auto;
+    padding: 3rem;
+}
+
+.bg-change h1{
+    font-weight: 900;
+}
+
+.bg-change .btn-bg-color-change{
+    background-color: black;
+    border-radius: .5rem;
+    padding: 1rem;
+    color: azure;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+
+.bg-change .btn-bg-color-change:hover{
+    background-color: rgba(0, 150, 150, 0.2);
+}

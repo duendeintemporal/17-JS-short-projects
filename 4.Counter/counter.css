@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+.counter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.counter-display{
+    font-size: 4rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.counter button{
+    font-size: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    border: 0;
+}
+
+.counterAdd{
+    background-color: lawngreen;
+}
+
+.counterSub{
+    background: orange;
+}

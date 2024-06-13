@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown-timer</title>
+    <link rel="stylesheet" href="countDown.css">
+    <script src="countDown.js" defer></script>
+</head>
+<body>
+    <div class="timer-wrapper">
+        <div class="input-timer-wrapper">
+            <label for="input-hours">Hours</label>
+            <input class="timer-input" id="input-hours" type="number" min="0">
+
+            <label for="input-minutes">Minutes</label>
+            <input class="timer-input" id="input-minutes" type="number" min="0">
+
+            <label for="input-seconds">Seconds</label>
+            <input class="timer-input" id="input-seconds" type="number" min="0">
+        </div>
+        <div class="output-timer-wrapper">
+            <p>  <span class="timer-span output-hours">2</span>  Hours</p>
+            <p>  <span class="timer-span output-minutes">44</span>  Minutes</p>
+            <p>  <span class="timer-span output-seconds">19</span>  Seconds</p>
+            <button class="timer-button">START</button>
+        </div>
+    </div>
+</body>
+</html>

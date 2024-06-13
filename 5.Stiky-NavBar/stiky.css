@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    margin-left: 20%;
+}
+
+nav{
+    position: sticky;
+    top: 10px;
+}
+
+.stiky-navbar{
+    /* display: block; */
+    list-style-type: none;
+    width: 7rem;
+}
+
+.stiky-navbar a{
+    padding: .5rem;
+    text-decoration: none;
+    color: black;
+} 
+
+.stiky-navbar li{
+    border-radius: 3px;
+    margin-bottom: 2px;
+    border: 1px crimson solid;
+}
+.stiky-navbar li:hover{
+    background-color:crimson;
+}
+
+.stiky-section{
+    width: 60%;
+    margin-left: .5rem;
+    
+} 

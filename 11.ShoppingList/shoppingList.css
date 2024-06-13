@@ -1,0 +1,68 @@
+#shopping-list-wrapper{
+    width: 21rem;
+    margin: 7rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    padding: 2rem;
+    padding-top: 10px;
+    border: 2px solid orange;
+    border-radius: 1rem;
+}
+
+.shopping-list{
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px black;
+    align-self: center;
+}
+
+.items-list{
+    margin-top: -20px;
+}
+
+.items{
+    display: flex;
+    gap: 0.5rem
+}
+
+.items-value{
+    color: orange;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.items-remove{
+    color: brown;
+}
+
+.items-remove:hover{
+    color: coral;
+    font-size: 0.8rem;
+}
+
+#add-item-section{
+    display: flex;
+    gap: .4rem
+}
+
+#add-item-input{
+    width: 7rem;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#add-item-button{
+    width: 4rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: orange;
+    color: whitesmoke; 
+    border: 1px solid gray;
+    border-radius: 8px;  
+}
+
+#add-item-button:hover{
+    background-color: goldenrod;
+    color: blue;
+}
